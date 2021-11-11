@@ -1,0 +1,47 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    color: gray;
+}
+header p{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.dreta{
+    display: flex;
+    justify-content: right;
+    flex: 0 0 82%;
+}
+nav{
+    color: gray;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.abajo{
+    display: flex;
+    text-align: justify;
+    color: gray;
+}.abajo article{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.abajo button{
+    background-color: rgb(53, 192, 162);
+    border: none;
+    height: 25%;
+}
+.abajo h1{
+    color: rgb(40, 62, 78);
+}
+footer{
+    margin-top: 3%;
+    text-align: center;
+}

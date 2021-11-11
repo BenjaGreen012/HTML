@@ -1,0 +1,80 @@
+body{
+    font-family: calibri;
+}
+header{
+    display: flex;
+}
+header h1{
+    padding: 4%;
+    text-decoration: underline;
+    font-family: calibri;
+}
+nav {
+	/* position: fixed; */
+	left:0;
+	top: 0;
+	z-index: 53;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	font-family: calibri;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	display: flex;
+	padding: 15px 152px;
+	text-decoration: none;
+	color: white;
+	background-color: #c10302;
+}
+
+nav a:hover {
+	background-color: #b00003;
+	color: #ffffff;
+	filter: none;
+	transition:all .6s cubic-bezier(.19,1,.22,1);
+}
+
+nav ul li ul {
+	display: none;
+	opacity: 0.97;
+}
+
+nav ul li a:hover + ul, nav ul li ul:hover {
+	display: block;
+	filter: none;
+}
+section h1{
+    text-align: center;
+}
+.pelimom{
+    display: flex;
+}
+.pelimom button{
+    color: white;
+   background-color: #c10302;
+    text-decoration: none;
+    width: 50%;
+    height: 10%;;
+}
+.pelimom li{
+    padding: 0.5%;
+}
+footer{
+    clear: both;
+    margin-top: 1%;
+}
+footer p{
+    text-align: center;
+    padding: 1%;
+    background-color:#c10302;
+    color: white;
+}
+footer a{
+    color: white;
+}
