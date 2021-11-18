@@ -23,11 +23,11 @@ nav ul {
 }
 
 nav a {
-   display: flex;
-   padding: 15px 149.26px;
-   text-decoration: none;
-   color: white;
-   background-color: #c10302;
+    display: flex;
+    padding: 15px 149.26px;
+    text-decoration: none;
+    color: white;
+    background-color: #c10302;
 }
 
 nav a:hover {
@@ -46,21 +46,10 @@ nav ul li a:hover + ul, nav ul li ul:hover {
    display: block;
    filter: none;
 }
-table{
-   padding-top: 1%;
-   padding-bottom: 1%;
-   border: solid red;
-   text-align: center;
+section{
+   margin-top: 2%;
+   margin-left: 43%;
 }
-table button{
-   color: white;
-   background-color: #c10302;
-   text-decoration: none;
-   width: 50%;
-   height: 10%;;
-}
-form{
-   text-align: center;
 }
 footer{
     clear: both;

@@ -26,13 +26,12 @@ nav ul {
 }
 
 nav a {
-	display: flex;
-	padding: 15px 145px;
-	text-decoration: none;
-	color: white;
-	background-color: #c10302;
+    display: flex;
+    padding: 15px 149.26px;
+    text-decoration: none;
+    color: white;
+    background-color: #c10302;
 }
-
 nav a:hover {
 	background-color: #b00003;
 	color: #ffffff;
