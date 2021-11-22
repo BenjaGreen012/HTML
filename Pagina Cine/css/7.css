@@ -46,7 +46,9 @@ nav ul li a:hover + ul, nav ul li ul:hover {
    display: block;
    filter: none;
 }
-
+.spider{
+   
+}
 footer{
     clear: both;
     margin-top: 1%;
