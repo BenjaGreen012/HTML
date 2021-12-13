@@ -49,19 +49,18 @@ nav ul li a:hover + ul, nav ul li ul:hover {
 table{
    padding-top: 1%;
    padding-bottom: 1%;
-   border: solid red;
    text-align: center;
 }
 table button{
    color: white;
    background-color: #c10302;
    text-decoration: none;
-   width: 50%;
-   height: 10%;;
+   width: 55%;
+   height: 15%;;
 }
-form{
-   margin: left 43%;;
-}
+.compra{
+   margin-left: 43%;;
+} */
 footer{
     clear: both;
     margin-top: 1%;

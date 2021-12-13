@@ -46,8 +46,12 @@ nav ul li a:hover + ul, nav ul li ul:hover {
    display: block;
    filter: none;
 }
-.spider{
-   
+section{
+   padding-top: 1%;
+   font-size: x-large;
+}
+section article{
+   display: flex;
 }
 footer{
     clear: both;
